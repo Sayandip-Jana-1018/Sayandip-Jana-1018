@@ -39,7 +39,7 @@
 
 <div align="center">
 
-  ## ⚡ About Me & Quick Terminal
+  <h2 align="center">⚡ About Me & Persona</h2>
 
   <p align="center">
     <i>"Code. Learn. Build. Solve real problems. Make an impact."</i>
@@ -65,32 +65,40 @@
 
 <div align="center">
 
-  ## 🏆 Hall of Fame & Hackathon Honors
+  <h2 align="center">🏆 Hall of Fame & Hackathon Honors</h2>
 
   <br/>
 
-  ### 🥈 TechForge '25 National Hackathon
-  **2nd Runner-Up & ₹5,00,000 Seed Investment** · *Jul 2025*  
-  Secured ₹5L seed backing in SMG with high-concurrency cloud architecture.
+  <h3 align="center">🥈 TechForge '25 National Hackathon</h3>
+  <p align="center">
+    <b>2nd Runner-Up & ₹5,00,000 Seed Investment</b> · <i>Jul 2025</i><br/>
+    Secured ₹5L seed backing in SMG with high-concurrency cloud architecture.
+  </p>
 
   <br/>
 
-  ### 🥇 Web-A-Thon by OnDemand
-  **1st Place Champion & ₹1,00,000 Prize** · *Feb 2025*  
-  Engineered **HygieiaAI** — Multi-agent healthcare ecosystem with Gemini 2.0 Flash (<2s processing).
+  <h3 align="center">🥇 Web-A-Thon by OnDemand</h3>
+  <p align="center">
+    <b>1st Place Champion & ₹1,00,000 Prize</b> · <i>Feb 2025</i><br/>
+    Engineered <b>HygieiaAI</b> — Multi-agent healthcare platform with Gemini 2.0 Flash (<2s processing).
+  </p>
 
   <br/>
 
-  ### 🏅 Inter-University Hackathons
-  **Multiple Podium Victories** · *Apr 2024*  
-  Recognized for rapid MVP execution, autonomous RAG pipelines, and cloud-native reliability.
+  <h3 align="center">🏅 Inter-University Hackathons</h3>
+  <p align="center">
+    <b>Multiple Podium Victories</b> · <i>Apr 2024</i><br/>
+    Recognized for rapid MVP execution, autonomous RAG pipelines, and cloud-native reliability.
+  </p>
 
   <br/>
 
-  ### 📜 Certifications & Academic Accolades
-  **IIT Guwahati (NPTEL):** Machine Learning & Deep Learning (*Sep 2025*)  
-  **Apna College:** Data Structures & Algorithms in Java (*Jun 2024*)  
-  **LPU Machine Learning Made Easy:** Tuned multi-disease ML model (~94% accuracy, *Jul 2025*)
+  <h3 align="center">📜 Certifications & Accolades</h3>
+  <p align="center">
+    <b>IIT Guwahati (NPTEL):</b> Machine Learning & Deep Learning (<i>Sep 2025</i>)<br/>
+    <b>Apna College:</b> Data Structures & Algorithms in Java (<i>Jun 2024</i>)<br/>
+    <b>LPU Machine Learning Made Easy:</b> Tuned multi-disease ML model (~94% accuracy, <i>Jul 2025</i>)
+  </p>
 
 </div>
 
@@ -98,13 +106,13 @@
 
 <div align="center">
 
-  ## 🚀 Featured Engineering Projects
+  <h2 align="center">🚀 Featured Engineering Projects</h2>
 
   <br/>
 
   <!-- Project 1 -->
-  ### 🌟 AutoForge ML Studio — Cloud AutoML Platform
-  *Low-Code Cloud AutoML Architecture on Google Vertex AI with Multi-LLM Agentic Tuning*
+  <h3 align="center">🌟 AutoForge ML Studio — Cloud AutoML Platform</h3>
+  <p align="center"><i>Low-Code Cloud AutoML Architecture on Google Vertex AI with Multi-LLM Agentic Tuning</i></p>
 
   <p align="center">
     <a href="https://github.com/Sayandip-Jana-1018/AutoML"><img src="https://img.shields.io/badge/Repository-AutoML-00D9FF?style=for-the-badge&logo=github&logoColor=white" /></a>
@@ -125,15 +133,15 @@
 
   <p align="center">
     ⚡ <b>Decoupled AutoML Architecture:</b> Sub-1-minute cloud deployments via Google Vertex AI pipelines.<br/>
-    🤖 <b>Multi-LLM Dataset Profiler:</b> Automated exploratory analysis and hyperparameter tuning with GPT-4, Claude 3.5 & Gemini 2.0.<br/>
-    📊 <b>Observability & 3D Visuals:</b> Automated GitHub Actions CI/CD with live training lineage and Three.js 3D canvas models.
+    🤖 <b>Multi-LLM Dataset Profiler:</b> Automated exploratory analysis & hyperparameter tuning with GPT-4, Claude 3.5 & Gemini 2.0.<br/>
+    📊 <b>Observability & 3D Visuals:</b> Automated GitHub Actions CI/CD with live training lineage & Three.js 3D canvas models.
   </p>
 
   <br/><br/>
 
   <!-- Project 2 -->
-  ### 💳 SplitX — Smart Expense Splitting & Settlement Engine
-  *High-Throughput Debt Settlement System with Multi-Agent Conversational Financial AI*
+  <h3 align="center">💳 SplitX — Smart Expense Splitting & Settlement Engine</h3>
+  <p align="center"><i>High-Throughput Debt Settlement System with Multi-Agent Conversational Financial AI</i></p>
 
   <p align="center">
     <a href="https://github.com/Sayandip-Jana-1018/SplitX"><img src="https://img.shields.io/badge/Repository-SplitX-6C63FF?style=for-the-badge&logo=github&logoColor=white" /></a>
@@ -155,13 +163,13 @@
   <p align="center">
     ⚙️ <b>Dual-Algorithm Settlement Engine:</b> Greedy Netting + Exact-Match Pruning minimizing group transactions.<br/>
     🧾 <b>Vision Receipt OCR & Agent:</b> Sub-2-second receipt ingestion via GPT-4o-mini Vision + CrewAI spending assistant.<br/>
-    📈 <b>GitOps Infrastructure:</b> Production Kubernetes deployment with Prometheus custom metrics and Grafana dashboards.
+    📈 <b>GitOps Infrastructure:</b> Production Kubernetes deployment with Prometheus custom metrics & Grafana dashboards.
   </p>
 
   <br/><br/>
 
   <!-- Additional Repositories -->
-  ### 📦 More Open Source Projects
+  <h3 align="center">📦 More Open Source Projects</h3>
 
   <p align="center">
     <a href="https://github.com/Sayandip-Jana-1018/ChitChat"><img src="https://img.shields.io/badge/ChitChat-Liquid_Glass_Real--Time_Chat_(Python)-00D9FF?style=for-the-badge&logo=python&logoColor=white" /></a>
@@ -177,7 +185,7 @@
 
 <div align="center">
 
-  ## 🛠️ Technical Arsenal & Skills
+  <h2 align="center">🛠️ Technical Arsenal & Skills</h2>
 
   <br/>
 
@@ -190,7 +198,7 @@
 
   <br/>
 
-  ### 💻 Languages & Core CS
+  <h3 align="center">💻 Languages & Core CS</h3>
   <p align="center">
     <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -204,7 +212,7 @@
 
   <br/>
 
-  ### 🤖 Generative AI & Autonomous Agents
+  <h3 align="center">🤖 Generative AI & Autonomous Agents</h3>
   <p align="center">
     <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
     <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
@@ -220,7 +228,7 @@
 
   <br/>
 
-  ### 🌐 Full-Stack & Backend Systems
+  <h3 align="center">🌐 Full-Stack & Backend Systems</h3>
   <p align="center">
     <img src="https://img.shields.io/badge/Next.js_15%2F16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
     <img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
@@ -232,7 +240,7 @@
 
   <br/>
 
-  ### 🗄️ Databases, Cloud & Big Data
+  <h3 align="center">🗄️ Databases, Cloud & Big Data</h3>
   <p align="center">
     <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
     <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
@@ -244,7 +252,7 @@
 
   <br/>
 
-  ### ☁️ DevOps, CI/CD & Observability
+  <h3 align="center">☁️ DevOps, CI/CD & Observability</h3>
   <p align="center">
     <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
     <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
@@ -261,32 +269,45 @@
 
 <div align="center">
 
-  ## 🏗️ System Architecture Blueprint
+  <h2 align="center">🏗️ Production Architecture Blueprint</h2>
 
   <br/>
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                         CLIENT & INTERACTIVE LAYER                          │
-│     Next.js 16 (App Router) · React 19 · Tailwind CSS · Three.js (3D)       │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                          API & ROUTING MIDDLEWARE                           │
-│        FastAPI (Python) · Node.js / Express · Next.js Server Actions        │
-├──────────────────────────────────────┬──────────────────────────────────────┤
-│      AGENTIC & GENAI PIPELINES       │         CORE SYSTEM ENGINES          │
-│  LangGraph Multi-Agent Workflows     │  Greedy Netting Settlement Engine    │
-│  CrewAI · RAG · Vector DB (Chroma)   │  High-Throughput Async Handlers      │
-│  OpenAI GPT-4o · Gemini 2.0 Flash    │  Prisma ORM Type-Safe Schemas        │
-├──────────────────────────────────────┴──────────────────────────────────────┤
-│                         DATA PERSISTENCE & ANALYTICS                        │
-│     PostgreSQL (Neon / Supabase) · MongoDB · Firebase Firestore · MySQL     │
-│                 Big Data Pipelines: Apache Spark · Hadoop                   │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                          GITOPS & CLOUD AUTOMATION                          │
-│  Docker Containers ➔ Kubernetes Pods ➔ Jenkins & GitHub Actions CI/CD       │
-│  AWS & Google Vertex AI ➔ Prometheus Metrics ➔ Grafana Dashboards           │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+  <p align="center">
+    <img src="https://img.shields.io/badge/1._CLIENT_&_PRESENTATION_LAYER-00D9FF?style=for-the-badge&logoColor=black" /><br/>
+    <b>Next.js 16 (App Router) · React 19 · Tailwind CSS · Three.js (3D Visuals)</b>
+  </p>
+
+  <p align="center">⬇️</p>
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/2._API_&_ROUTING_MIDDLEWARE-6C63FF?style=for-the-badge&logoColor=white" /><br/>
+    <b>FastAPI (Python) · Node.js / Express · Next.js Server Actions & SSR</b>
+  </p>
+
+  <p align="center">⬇️</p>
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/3._AGENTIC_AI_&_BUSINESS_LOGIC-10B981?style=for-the-badge&logoColor=white" /><br/>
+    <b>LangGraph Multi-Agent Workflows · CrewAI · RAG · Chroma Vector DB</b><br/>
+    <b>OpenAI GPT-4o · Google Gemini 2.0 Flash · Claude 3.5 Sonnet · Greedy Netting Engine</b>
+  </p>
+
+  <p align="center">⬇️</p>
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/4._DATA_PERSISTENCE_&_STORAGE-F59E0B?style=for-the-badge&logoColor=white" /><br/>
+    <b>PostgreSQL (Neon / Supabase) · MongoDB · Firebase Firestore · MySQL</b><br/>
+    <b>Distributed Analytics: Apache Spark · Apache Hadoop</b>
+  </p>
+
+  <p align="center">⬇️</p>
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/5._DEVOPS_&_GITOPS_OBSERVABILITY-EC4899?style=for-the-badge&logoColor=white" /><br/>
+    <b>Docker Containers ➔ Kubernetes Pods ➔ Jenkins & GitHub Actions CI/CD</b><br/>
+    <b>AWS Cloud & Google Vertex AI ➔ Prometheus Metrics ➔ Grafana Dashboards</b>
+  </p>
 
 </div>
 
@@ -294,7 +315,7 @@
 
 <div align="center">
 
-  ## 📊 Real-Time GitHub & LeetCode Analytics
+  <h2 align="center">📊 Real-Time GitHub & LeetCode Analytics</h2>
 
   <br/>
 
@@ -321,71 +342,69 @@
 
 <div align="center">
 
-  ## 🕹️ Interactive Engineering Quest Log
+  <h2 align="center">🕹️ Interactive Engineering Quest Log</h2>
 
   <br/>
 
 <details>
-<summary>🧠 <b>Quest 1: Generative AI & Autonomous Agentic Systems</b></summary>
+<summary><b>🧠 Quest 1: Generative AI & Autonomous Agentic Systems</b></summary>
 <br/>
-
-- ✅ **Multi-Agent Coordination:** Orchestrated complex subagent graphs using **LangGraph & CrewAI**
-- ✅ **Production RAG Architecture:** Vector embeddings, chunking, and similarity search with **Chroma DB**
-- ✅ **Multi-LLM Unified Routing:** Intelligent switching across **GPT-4o, Claude 3.5 Sonnet & Gemini 2.0**
-- ✅ **Multimodal Document Extraction:** Sub-2s receipt processing with **GPT-4o-mini Vision**
-- 🔄 **Self-Correcting Execution Loops:** Automated code synthesis and iterative reflection
-
-<br/>
-</details>
-
-<details>
-<summary>🌐 <b>Quest 2: Full-Stack Web Architecture & Performance</b></summary>
-<br/>
-
-- ✅ **Next-Gen React & SSR:** Server Components, Streaming & App Router with **Next.js 15/16 & React 19**
-- ✅ **High-Performance APIs:** Asynchronous microservice routing with **FastAPI & Node.js**
-- ✅ **Type-Safe Data Layer:** Complex schema modeling with **Prisma ORM & PostgreSQL (Neon)**
-- ✅ **Interactive 3D Visualizations:** Custom WebGL canvas and models using **Three.js & R3F**
-- 🔄 **Edge Caching:** Global distribution and edge invalidation strategies
-
+<p align="center">
+  ✅ <b>Multi-Agent Coordination:</b> Orchestrated complex subagent graphs using <b>LangGraph & CrewAI</b><br/>
+  ✅ <b>Production RAG Architecture:</b> Vector embeddings, chunking, and similarity search with <b>Chroma DB</b><br/>
+  ✅ <b>Multi-LLM Unified Routing:</b> Intelligent switching across <b>GPT-4o, Claude 3.5 Sonnet & Gemini 2.0</b><br/>
+  ✅ <b>Multimodal Document Extraction:</b> Sub-2s receipt processing with <b>GPT-4o-mini Vision</b><br/>
+  🔄 <b>Self-Correcting Execution Loops:</b> Automated code synthesis and iterative reflection
+</p>
 <br/>
 </details>
 
 <details>
-<summary>☁️ <b>Quest 3: Cloud-Native DevOps, Kubernetes & GitOps</b></summary>
+<summary><b>🌐 Quest 2: Full-Stack Web Architecture & Performance</b></summary>
 <br/>
-
-- ✅ **Microservice Containerization:** Optimized multi-stage Docker builds
-- ✅ **Cluster Management:** Pod scaling and declarative services via **Kubernetes**
-- ✅ **Automated CI/CD:** Continuous Integration & Delivery with **GitHub Actions & Jenkins**
-- ✅ **Telemetry & Metrics:** End-to-end observability using **Prometheus & Grafana**
-- 🔄 **Infrastructure as Code:** Declarative cloud provisioning with **Terraform on AWS**
-
-<br/>
-</details>
-
-<details>
-<summary>⚔️ <b>Quest 4: Algorithmic Mastery & 600+ LeetCode Milestone</b></summary>
-<br/>
-
-- ✅ **600+ Problems Solved:** Deep mastery across Dynamic Programming, Graphs, Trees & Backtracking
-- ✅ **Graph Traversal:** Dijkstra, Topological Sort, Disjoint Set Union (DSU), BFS/DFS
-- ✅ **Algorithmic Engine Design:** Greedy Netting + Exact-Match Pruning for optimal debt settlement
-- 🔄 **Competitive Programming:** Rating progression and live contest participation
-
+<p align="center">
+  ✅ <b>Next-Gen React & SSR:</b> Server Components, Streaming & App Router with <b>Next.js 15/16 & React 19</b><br/>
+  ✅ <b>High-Performance APIs:</b> Asynchronous microservice routing with <b>FastAPI & Node.js</b><br/>
+  ✅ <b>Type-Safe Data Layer:</b> Complex schema modeling with <b>Prisma ORM & PostgreSQL (Neon)</b><br/>
+  ✅ <b>Interactive 3D Visualizations:</b> Custom WebGL canvas and models using <b>Three.js & R3F</b><br/>
+  🔄 <b>Edge Caching:</b> Global distribution and edge invalidation strategies
+</p>
 <br/>
 </details>
 
 <details>
-<summary>🎁 <b>Secret Developer Loot Vault — Click to Unlock!</b></summary>
+<summary><b>☁️ Quest 3: Cloud-Native DevOps, Kubernetes & GitOps</b></summary>
 <br/>
+<p align="center">
+  ✅ <b>Microservice Containerization:</b> Optimized multi-stage Docker builds<br/>
+  ✅ <b>Cluster Management:</b> Pod scaling and declarative services via <b>Kubernetes</b><br/>
+  ✅ <b>Automated CI/CD:</b> Continuous Integration & Delivery with <b>GitHub Actions & Jenkins</b><br/>
+  ✅ <b>Telemetry & Metrics:</b> End-to-end observability using <b>Prometheus & Grafana</b><br/>
+  🔄 <b>Infrastructure as Code:</b> Declarative cloud provisioning with <b>Terraform on AWS</b>
+</p>
+<br/>
+</details>
 
+<details>
+<summary><b>⚔️ Quest 4: Algorithmic Mastery & 600+ LeetCode Milestone</b></summary>
+<br/>
+<p align="center">
+  ✅ <b>600+ Problems Solved:</b> Deep mastery across Dynamic Programming, Graphs, Trees & Backtracking<br/>
+  ✅ <b>Graph Traversal:</b> Dijkstra, Topological Sort, Disjoint Set Union (DSU), BFS/DFS<br/>
+  ✅ <b>Algorithmic Engine Design:</b> Greedy Netting + Exact-Match Pruning for optimal debt settlement<br/>
+  🔄 <b>Competitive Programming:</b> Rating progression and live contest participation
+</p>
+<br/>
+</details>
+
+<details>
+<summary><b>🎁 Secret Developer Loot Vault — Click to Unlock!</b></summary>
+<br/>
 <div align="center">
   <b>🎉 You unlocked the Secret Developer Vault!</b><br/>
   <i>"Any sufficiently advanced technology is indistinguishable from magic."</i><br/><br/>
   <img src="https://img.shields.io/badge/%E2%9A%A1_%2B5000_XP_LEVEL_MAX_ENGINEER-FFD700?style=for-the-badge&logo=hackthebox&logoColor=black" alt="XP Trophy" />
 </div>
-
 <br/>
 </details>
 
@@ -395,7 +414,7 @@
 
 <div align="center">
 
-  ## 💡 Engineering Philosophy
+  <h2 align="center">💡 Engineering Philosophy</h2>
 
   <br/>
 
@@ -423,7 +442,7 @@
 
 <div align="center">
 
-  ## 🔌 Connect With Me
+  <h2 align="center">🔌 Connect With Me</h2>
 
   <br/>
 
