@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c16" />
+      <stop offset="50%" stop-color="#0d1424" />
+      <stop offset="100%" stop-color="#140d28" />
+    </linearGradient>
+
+    <!-- Glowing Cyber Border Gradient -->
+    <linearGradient id="neon-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d9ff" />
+      <stop offset="50%" stop-color="#6c63ff" />
+      <stop offset="100%" stop-color="#ff007f" />
+    </linearGradient>
+
+    <!-- Cyan to Violet Gradient -->
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d9ff" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <!-- Pill Gradient -->
+    <linearGradient id="pill-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8" />
+    </linearGradient>
+
+    <style>
+      .mono { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .glow-text { text-shadow: 0 0 20px rgba(0, 217, 255, 0.5); }
+      .float-card { animation: floating 4s ease-in-out infinite; }
+      @keyframes floating {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-5px); }
+      }
+      .pulse-dot { animation: pulse 2s infinite; }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.4; }
+      }
+    </style>
+  </defs>
+
+  <!-- Outer Card Frame -->
+  <rect x="4" y="4" width="952" height="452" rx="20" fill="url(#card-bg)" stroke="url(#neon-border)" stroke-width="2.5" />
+
+  <!-- Terminal Window Bar -->
+  <rect x="4" y="4" width="952" height="42" rx="20" fill="#0b1120" />
+  <rect x="4" y="26" width="952" height="20" fill="#0b1120" />
+  <line x1="4" y1="46" x2="956" y2="46" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Terminal Buttons -->
+  <circle cx="28" cy="25" r="6" fill="#ef4444" />
+  <circle cx="48" cy="25" r="6" fill="#f59e0b" />
+  <circle cx="68" cy="25" r="6" fill="#10b981" />
+
+  <!-- Terminal Title -->
+  <text class="mono" x="98" y="29" fill="#94a3b8" font-size="13">sayandip@engineer:~ /whoami.sh</text>
+  <text class="mono" x="780" y="29" fill="#64748b" font-size="12">STATUS: SHIPPING 🟢</text>
+
+  <!-- ================= LEFT COLUMN: HERO INTRO & CODE ================= -->
+  
+  <!-- Greeting -->
+  <text class="mono" x="40" y="85" fill="#00d9ff" font-size="14" font-weight="600">> HELLO WORLD, I'M</text>
+  
+  <!-- Main Name Title -->
+  <text class="sans glow-text" x="40" y="132" fill="url(#text-grad)" font-size="38" font-weight="900" letter-spacing="1">SAYANDIP JANA</text>
+  
+  <!-- Subtitle -->
+  <text class="sans" x="40" y="162" fill="#cbd5e1" font-size="16" font-weight="600">Full-Stack Engineer · GenAI &amp; Autonomous Agentic Systems Architect</text>
+  
+  <!-- Highlights Bar -->
+  <g transform="translate(40, 182)">
+    <rect width="130" height="26" rx="6" fill="url(#pill-bg)" stroke="#00d9ff" stroke-width="1" />
+    <text class="mono" x="10" y="17" fill="#00d9ff" font-size="11">🎓 LPU CSE 9.11</text>
+
+    <rect x="140" width="135" height="26" rx="6" fill="url(#pill-bg)" stroke="#6c63ff" stroke-width="1" />
+    <text class="mono" x="150" y="17" fill="#a78bfa" font-size="11">🏆 ₹6L+ Hackathons</text>
+
+    <rect x="285" width="135" height="26" rx="6" fill="url(#pill-bg)" stroke="#f59e0b" stroke-width="1" />
+    <text class="mono" x="295" y="17" fill="#fbbf24" font-size="11">🧠 600+ LeetCode</text>
+
+    <rect x="430" width="105" height="26" rx="6" fill="url(#pill-bg)" stroke="#10b981" stroke-width="1" />
+    <text class="mono" x="440" y="17" fill="#34d399" font-size="11">📍 India 🇮🇳</text>
+  </g>
+
+  <!-- Interactive Code Snippet Panel -->
+  <g transform="translate(40, 226)">
+    <rect width="500" height="195" rx="12" fill="#090e1a" stroke="#1e293b" stroke-width="1.5" />
+    
+    <text class="mono" x="18" y="28" fill="#ec4899" font-size="12">const <tspan fill="#00d9ff">sayandip</tspan> <tspan fill="#94a3b8">=</tspan> <tspan fill="#cbd5e1">{</tspan></text>
+    
+    <text class="mono" x="36" y="52" fill="#94a3b8" font-size="12">focus: <tspan fill="#fef08a">["Autonomous Agents", "LangGraph", "RAG", "Next.js 16"]</tspan>,</text>
+    
+    <text class="mono" x="36" y="76" fill="#94a3b8" font-size="12">stack: <tspan fill="#38bdf8">["TypeScript", "Python", "FastAPI", "Postgres", "Docker"]</tspan>,</text>
+    
+    <text class="mono" x="36" y="100" fill="#94a3b8" font-size="12">achievements: <tspan fill="#86efac">["₹5L Seed Round", "1st Prize Web-A-Thon", "600+ DSA"]</tspan>,</text>
+    
+    <text class="mono" x="36" y="124" fill="#94a3b8" font-size="12">architecture: <tspan fill="#f472b6">"Decoupled AutoML &amp; Algorithmic Debt Engines"</tspan>,</text>
+    
+    <text class="mono" x="36" y="148" fill="#94a3b8" font-size="12">mission: <tspan fill="#c084fc">"Build scalable solutions that create tangible impact."</tspan></text>
+    
+    <text class="mono" x="18" y="174" fill="#cbd5e1" font-size="12"><tspan fill="#cbd5e1">}</tspan>;</text>
+  </g>
+
+  <!-- ================= RIGHT COLUMN: FLOATING METRICS CARDS ================= -->
+  
+  <!-- Floating Metric Card 1: Hackathon Winner -->
+  <g class="float-card" transform="translate(565, 80)">
+    <rect width="355" height="98" rx="14" fill="#0d1527" stroke="#00d9ff" stroke-width="1.5" />
+    <circle cx="36" cy="49" r="20" fill="#00d9ff" fill-opacity="0.15" />
+    <text x="26" y="56" font-size="20">🏆</text>
+    
+    <text class="sans" x="68" y="38" fill="#f8fafc" font-size="15" font-weight="700">₹6,00,000+ Hackathon Prizes</text>
+    <text class="sans" x="68" y="58" fill="#94a3b8" font-size="12">₹5L Seed @ TechForge '25 • ₹1L 1st Prize Web-A-Thon</text>
+    <text class="mono" x="68" y="78" fill="#00d9ff" font-size="11">● NATIONAL CHAMPION &amp; SEED BACKED</text>
+  </g>
+
+  <!-- Floating Metric Card 2: LeetCode Master -->
+  <g class="float-card" transform="translate(565, 195)">
+    <rect width="355" height="98" rx="14" fill="#0d1527" stroke="#f59e0b" stroke-width="1.5" />
+    <circle cx="36" cy="49" r="20" fill="#f59e0b" fill-opacity="0.15" />
+    <text x="26" y="56" font-size="20">🧠</text>
+    
+    <text class="sans" x="68" y="38" fill="#f8fafc" font-size="15" font-weight="700">600+ LeetCode Mastered</text>
+    <text class="sans" x="68" y="58" fill="#94a3b8" font-size="12">Graphs, Dynamic Programming, Trees &amp; Greedy Netting</text>
+    <text class="mono" x="68" y="78" fill="#fbbf24" font-size="11">● ALGORITHMIC SYSTEM ARCHITECT</text>
+  </g>
+
+  <!-- Floating Metric Card 3: Cloud & Agentic Systems -->
+  <g class="float-card" transform="translate(565, 310)">
+    <rect width="355" height="110" rx="14" fill="#0d1527" stroke="#6c63ff" stroke-width="1.5" />
+    <circle cx="36" cy="55" r="20" fill="#6c63ff" fill-opacity="0.15" />
+    <text x="26" y="62" font-size="20">🚀</text>
+    
+    <text class="sans" x="68" y="38" fill="#f8fafc" font-size="15" font-weight="700">Sub-1-Min Cloud AutoML</text>
+    <text class="sans" x="68" y="58" fill="#94a3b8" font-size="12">AutoForge ML Studio &amp; SplitX Settlement Engine</text>
+    <text class="mono" x="68" y="80" fill="#a78bfa" font-size="11">● LangGraph · RAG · K8s · Prometheus</text>
+    <text class="mono" x="68" y="98" fill="#34d399" font-size="10">● GitOps Observability &amp; Vertex AI</text>
+  </g>
+
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="proj-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c16" />
+      <stop offset="50%" stop-color="#0d1424" />
+      <stop offset="100%" stop-color="#140d28" />
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="proj-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d9ff" />
+      <stop offset="50%" stop-color="#6c63ff" />
+      <stop offset="100%" stop-color="#ff007f" />
+    </linearGradient>
+
+    <linearGradient id="card-p1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <style>
+      .mono { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .glow-p { text-shadow: 0 0 15px rgba(0, 217, 255, 0.4); }
+      .float-left { animation: flA 4s ease-in-out infinite; }
+      .float-right { animation: flB 4s ease-in-out infinite; }
+      @keyframes flA {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+      }
+      @keyframes flB {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(4px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Frame Background -->
+  <rect x="4" y="4" width="952" height="352" rx="20" fill="url(#proj-bg)" stroke="url(#proj-border)" stroke-width="2" />
+
+  <!-- Title Header -->
+  <text class="sans glow-p" x="40" y="42" fill="#f8fafc" font-size="20" font-weight="800">🚀 Flagship Engineering Showcases</text>
+  <text class="mono" x="40" y="64" fill="#94a3b8" font-size="12">Production Cloud AutoML Platforms &amp; Algorithmic Debt Settlement Architectures</text>
+
+  <!-- Project 1: AutoForge ML Studio -->
+  <g class="float-left" transform="translate(40, 85)">
+    <rect width="425" height="245" rx="14" fill="url(#card-p1)" stroke="#00d9ff" stroke-width="1.5" />
+    <circle cx="36" cy="36" r="18" fill="#00d9ff" fill-opacity="0.15" />
+    <text x="26" y="43" font-size="18">🌟</text>
+    
+    <text class="sans" x="65" y="32" fill="#38bdf8" font-size="16" font-weight="800">AutoForge ML Studio</text>
+    <text class="mono" x="65" y="48" fill="#94a3b8" font-size="11">Cloud AutoML Platform · Vertex AI</text>
+    
+    <rect x="20" y="68" width="385" height="26" rx="6" fill="#0369a1" fill-opacity="0.2" />
+    <text class="mono" x="28" y="85" fill="#38bdf8" font-size="11">Next.js 15 · Vertex AI · LangChain · GPT-4 · Three.js</text>
+    
+    <text class="sans" x="20" y="116" fill="#e2e8f0" font-size="12.5" font-weight="600">⚡ Sub-1-Minute Cloud Deployments</text>
+    <text class="sans" x="20" y="136" fill="#94a3b8" font-size="11.5">Decoupled data ingestion from model training on Google Vertex AI.</text>
+
+    <text class="sans" x="20" y="162" fill="#e2e8f0" font-size="12.5" font-weight="600">🤖 Multi-LLM Agentic Dataset Profiler</text>
+    <text class="sans" x="20" y="182" fill="#94a3b8" font-size="11.5">Automated RAG hyperparameter tuning (GPT-4, Claude 3.5, Gemini 2.0).</text>
+
+    <text class="sans" x="20" y="208" fill="#e2e8f0" font-size="12.5" font-weight="600">📊 CPU-Free Lineage &amp; 3D Interactive Visuals</text>
+    <text class="sans" x="20" y="228" fill="#94a3b8" font-size="11.5">CI/CD via GitHub Actions with real-time logs &amp; cost estimation.</text>
+  </g>
+
+  <!-- Project 2: SplitX -->
+  <g class="float-right" transform="translate(495, 85)">
+    <rect width="425" height="245" rx="14" fill="url(#card-p1)" stroke="#ff007f" stroke-width="1.5" />
+    <circle cx="36" cy="36" r="18" fill="#ff007f" fill-opacity="0.15" />
+    <text x="26" y="43" font-size="18">💳</text>
+    
+    <text class="sans" x="65" y="32" fill="#f472b6" font-size="16" font-weight="800">SplitX Settlement Engine</text>
+    <text class="mono" x="65" y="48" fill="#94a3b8" font-size="11">Smart Expense Splitting · Algorithmic Netting</text>
+    
+    <rect x="20" y="68" width="385" height="26" rx="6" fill="#be185d" fill-opacity="0.2" />
+    <text class="mono" x="28" y="85" fill="#f472b6" font-size="11">Next.js 16 · Prisma · Postgres · CrewAI · K8s · Grafana</text>
+    
+    <text class="sans" x="20" y="116" fill="#e2e8f0" font-size="12.5" font-weight="600">⚙️ Dual-Algorithm Settlement Engine</text>
+    <text class="sans" x="20" y="136" fill="#94a3b8" font-size="11.5">Greedy Netting + Exact-Match Pruning to minimize transaction hops.</text>
+
+    <text class="sans" x="20" y="162" fill="#e2e8f0" font-size="12.5" font-weight="600">🧾 Multimodal AI Spending Assistant</text>
+    <text class="sans" x="20" y="182" fill="#94a3b8" font-size="11.5">Sub-2s receipt parsing (GPT-4o Vision) &amp; CrewAI/LangGraph vector search.</text>
+
+    <text class="sans" x="20" y="208" fill="#e2e8f0" font-size="12.5" font-weight="600">📈 End-to-End GitOps Observability</text>
+    <text class="sans" x="20" y="228" fill="#94a3b8" font-size="11.5">Kubernetes, Terraform, Prometheus custom metrics &amp; Grafana.</text>
+  </g>
+
+</svg>
