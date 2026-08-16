@@ -14,7 +14,7 @@
   <p align="center">
     <img src="https://img.shields.io/badge/B.Tech_CSE-LPU_(CGPA:_9.11)-6C63FF?style=for-the-badge&logo=googleclassroom&logoColor=white" />
     <img src="https://img.shields.io/badge/LeetCode-600%2B_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
-    <img src="https://img.shields.io/badge/Hackathons-₹6L+_Won-FFD700?style=for-the-badge&logo=trophy&logoColor=black" />
+    <img src="https://img.shields.io/badge/Hackathons-₹7X+_Won-FFD700?style=for-the-badge&logo=trophy&logoColor=black" />
     <img src="https://img.shields.io/badge/Location-India_%F0%9F%87%AE%F0%9F%87%B3-00D9FF?style=for-the-badge" />
   </p>
 
