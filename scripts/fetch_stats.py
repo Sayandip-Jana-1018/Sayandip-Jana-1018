@@ -51,6 +51,7 @@ LEVEL = {"NONE": "0", "FIRST_QUARTILE": "1", "SECOND_QUARTILE": "2", "THIRD_QUAR
 def github(stats):
     q = """query($login:String!){ user(login:$login){
       followers{totalCount}
+      allRepos: repositories(ownerAffiliations:OWNER, privacy:PUBLIC){ totalCount }
       contributionsCollection{ contributionCalendar{ totalContributions
         weeks{ contributionDays{ date contributionCount contributionLevel } } } }
       repositories(ownerAffiliations:OWNER, privacy:PUBLIC, first:100, isFork:false){
@@ -85,7 +86,7 @@ def github(stats):
         "longest_streak": best,
         "active_days": sum(1 for n in counts if n > 0),
         "max_day": max(counts) if counts else g.get("max_day", 0),
-        "public_repos": u["repositories"]["totalCount"],
+        "public_repos": u["allRepos"]["totalCount"],
         "stars": sum(n["stargazerCount"] for n in u["repositories"]["nodes"]),
         "followers": u["followers"]["totalCount"],
         "languages": top or g["languages"],
