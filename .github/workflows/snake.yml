@@ -20,8 +20,8 @@ jobs:
         with:
           github_user_name: Sayandip-Jana-1018
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg?color_snake=#9C7A1F&color_dots=#ebedf0,#f3e3b0,#e5c766,#d4af37,#9c7a1f
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#F5D27A&color_dots=#161b22,#4a3b14,#8a6a1c,#c9a227,#f5d27a
             
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0

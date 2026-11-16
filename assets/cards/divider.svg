@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="64" viewBox="0 0 1000 64" role="img" aria-label="section divider"><title>section divider</title><defs><style>
+.bl{transform-box:fill-box;transform-origin:center}
+.d1{animation:d1 26s ease-in-out infinite alternate}
+.d2{animation:d2 31s ease-in-out infinite alternate}
+.d3{animation:d3 23s ease-in-out infinite alternate}
+.d4{animation:d4 35s ease-in-out infinite alternate}
+@keyframes d1{0%{transform:translate(0,0) scale(1)}50%{transform:translate(70px,-40px) scale(1.12)}100%{transform:translate(-50px,30px) scale(.94)}}
+@keyframes d2{0%{transform:translate(0,0) scale(1.05)}50%{transform:translate(-80px,35px) scale(.92)}100%{transform:translate(45px,-25px) scale(1.1)}}
+@keyframes d3{0%{transform:translate(0,0) scale(.95)}50%{transform:translate(40px,50px) scale(1.15)}100%{transform:translate(-60px,-20px) scale(1)}}
+@keyframes d4{0%{transform:translate(0,0) rotate(0deg)}100%{transform:translate(30px,-30px) rotate(25deg)}}
+.dust{animation:rise linear infinite;opacity:0}
+@keyframes rise{0%{transform:translateY(0);opacity:0}12%{opacity:.85}80%{opacity:.5}100%{transform:translateY(-240px);opacity:0}}
+.sh{transform-box:fill-box;transform-origin:center;animation:sweep 9s cubic-bezier(.55,0,.35,1) infinite}
+@keyframes sweep{0%{transform:translateX(-160%) skewX(-22deg)}45%,100%{transform:translateX(520%) skewX(-22deg)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.2s ease-out infinite}
+@keyframes pulse{0%{transform:scale(1);opacity:.85}100%{transform:scale(3.2);opacity:0}}
+.fl{transform-box:fill-box;transform-origin:center;animation:fl 6s ease-in-out infinite}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.spinr{transform-box:fill-box;transform-origin:center;animation:spin 22s linear infinite reverse}
+.blink{animation:blink 1.05s steps(1) infinite}
+@keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}
+.glow{animation:glow 3.6s ease-in-out infinite}
+@keyframes glow{0%,100%{opacity:.35}50%{opacity:1}}
+.comet{animation:comet 7s linear infinite}
+@keyframes comet{to{stroke-dashoffset:-2000}}
+.breathe{transform-box:fill-box;transform-origin:center;animation:breathe 5s ease-in-out infinite}
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.035)}}
+.fadein{animation:fadein 1.2s ease-out both}
+@keyframes fadein{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style><linearGradient id="gold" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect"><stop offset="0" stop-color="#9C7A1F"/><stop offset=".22" stop-color="#D4AF37"/><stop offset=".45" stop-color="#FFF1C9"/><stop offset=".62" stop-color="#F5D27A"/><stop offset="1" stop-color="#9C7A1F"/><animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="7s" repeatCount="indefinite"/></linearGradient><linearGradient id="goldv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF1C9"/><stop offset=".45" stop-color="#F5D27A"/><stop offset="1" stop-color="#9C7A1F"/></linearGradient><linearGradient id="gfill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".13"/><stop offset=".45" stop-color="#FFFFFF" stop-opacity=".045"/><stop offset="1" stop-color="#FFE9B0" stop-opacity=".075"/></linearGradient><linearGradient id="gstroke" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F5D27A" stop-opacity=".95"/><stop offset=".3" stop-color="#FFFFFF" stop-opacity=".22"/><stop offset=".65" stop-color="#FFFFFF" stop-opacity=".05"/><stop offset="1" stop-color="#D4AF37" stop-opacity=".7"/></linearGradient><linearGradient id="spec" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".25" stop-color="#FFFFFF" stop-opacity=".55"/><stop offset=".6" stop-color="#FFF4D6" stop-opacity=".25"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient><linearGradient id="shim" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFF6DA" stop-opacity=".16"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient><radialGradient id="sheen" cx=".18" cy="0" r="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".14"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".02"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient><filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="7" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .55"/></feComponentTransfer></filter><filter id="softglow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="g1" x1="60" y1="0" x2="940" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#D4AF37" stop-opacity="0"/><stop offset="0.5" stop-color="#D4AF37" stop-opacity="0.95"/><stop offset="1" stop-color="#D4AF37" stop-opacity="0"/></linearGradient></defs><path d="M60 32 H468 M532 32 H940" stroke="url(#g1)" stroke-width="1.3"/><g class="spin" style="animation-duration:8s"><path d="M500 14 L518 32 L500 50 L482 32Z" fill="none" stroke="#F5D27A" stroke-width="1.4"/></g><path class="glow" d="M500 23 L509 32 L500 41 L491 32Z" fill="url(#goldv)"/><circle r="2.6" fill="#FFF1C9" filter="url(#softglow)" opacity="0"><animateMotion dur="3.8s" begin="-0.00s" repeatCount="indefinite" path="M468 32 H60"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.85;1" dur="3.8s" begin="-0.00s" repeatCount="indefinite"/></circle><circle r="2.6" fill="#FFF1C9" filter="url(#softglow)" opacity="0"><animateMotion dur="3.8s" begin="-1.90s" repeatCount="indefinite" path="M532 32 H940"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.85;1" dur="3.8s" begin="-1.90s" repeatCount="indefinite"/></circle></svg>

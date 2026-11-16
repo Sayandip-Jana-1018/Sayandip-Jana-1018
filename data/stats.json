@@ -1,0 +1,12 @@
+{
+  "updated": "2026-11-16",
+  "leetcode": {"username": "sayandip_jana", "solved": 653, "easy": 202, "medium": 345, "hard": 106, "streak": 29, "active_days": 313, "ranking": 120993},
+  "codeforces": {"handle": "sayandip1018", "solved": 9},
+  "atcoder": {"user": "sayandip1018", "solved": 1},
+  "codechef": {"user": "raw_cheetah_98", "solved": 1},
+  "github": {"login": "Sayandip-Jana-1018", "contrib_year": 1289, "contrib_total": 1450, "current_streak": 15, "longest_streak": 29, "active_days": 187, "max_day": 60, "public_repos": 54, "stars": 10, "followers": 9,
+             "languages": {"TypeScript": 15, "Python": 9, "Jupyter Notebook": 7, "JavaScript": 6, "Java": 4},
+             "levels": "000000000000100011000001101111001100100001000000000000000000000000001100111000000011010111011111110011110011000111010110010001111111000110101000011120000001000000000111000010311101011111111121111211000000000112110000000000000011000001001000110010211001100111110111111111121111111112111123110411000101121022201122220100110010111110100111101001010001000111111111111212",
+             "levels_start": "2025-11-16"},
+  "repos": {"LeetCodeSj": 163, "CodeforcesSj": 1, "AtCoderSj": 1, "CodeChefSj": 1, "study_guides": 4, "daily_since": "2026-11-16"}
+}
