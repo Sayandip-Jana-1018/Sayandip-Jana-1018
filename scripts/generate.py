@@ -977,7 +977,7 @@ def quest_log():
     W, H = 1000, 650
     c = base(W, H, 121, (VIOLET, CYAN, EMERALD, ORANGE), "Engineering quest log",
              blobs=[(VIOLET, 200, 280, 320, .34), (CYAN, 820, 280, 320, .26), (EMERALD, 200, 520, 300, .24), (ORANGE, 820, 520, 320, .28)])
-    head(c, 62, "11 · QUEST LOG", "ENGINEERING QUESTS", "Four campaigns, one character sheet. Open the scrolls below for every objective.")
+    head(c, 62, "11 · QUEST LOG", "ENGINEERING QUESTS", "Four campaigns, one character sheet. 16 of 20 objectives cleared, and counting.")
     for i, (qn, title, ic, col, done, total, tags) in enumerate(QUESTS):
         x = 50 + (i % 2) * 460
         y = 196 + (i // 2) * 186

@@ -59,67 +59,7 @@
 
 <img src="assets/cards/quest_log.svg" width="100%" alt="Engineering quest log: four quests with progress bars."/>
 
-</div>
-
-<details>
-<summary>🧠 <b>Quest 1 · Generative AI & Autonomous Agentic Systems</b></summary>
-<br/>
-
-- ✅ **Multi-Agent Coordination:** orchestrated complex sub-agent graphs with **LangGraph & CrewAI**
-- ✅ **Production RAG Architecture:** embeddings, chunking and similarity search with **Chroma DB**
-- ✅ **Multi-LLM Unified Routing:** intelligent switching across **GPT-4o, Claude 3.5 Sonnet & Gemini 2.0**
-- ✅ **Multimodal Document Extraction:** sub-2 s receipt processing with **GPT-4o-mini Vision**
-- 🔄 **Self-Correcting Execution Loops:** automated code synthesis and iterative reflection
-
-</details>
-
-<details>
-<summary>🌐 <b>Quest 2 · Full-Stack Web Architecture & Performance</b></summary>
-<br/>
-
-- ✅ **Next-Gen React & SSR:** Server Components, streaming and the App Router with **Next.js 15/16 & React 19**
-- ✅ **High-Performance APIs:** async microservice routing with **FastAPI, Spring Boot & Node.js**
-- ✅ **Type-Safe Data Layer:** complex schema modelling with **Prisma ORM & PostgreSQL (Neon)**
-- ✅ **Interactive 3D Visualisations:** custom WebGL canvas and models with **Three.js & R3F**
-- 🔄 **Edge Caching:** global distribution and edge invalidation strategies
-
-</details>
-
-<details>
-<summary>☁️ <b>Quest 3 · Cloud-Native DevOps, Kubernetes & GitOps</b></summary>
-<br/>
-
-- ✅ **Microservice Containerisation:** optimised multi-stage **Docker** builds
-- ✅ **Cluster Management:** pod scaling and declarative services on **Kubernetes**
-- ✅ **Automated CI/CD:** continuous integration and delivery with **GitHub Actions & Jenkins**
-- ✅ **Telemetry & Metrics:** end-to-end observability with **Prometheus & Grafana**
-- 🔄 **Infrastructure as Code:** declarative cloud provisioning with **Terraform on AWS**
-
-</details>
-
-<details>
-<summary>⚔️ <b>Quest 4 · Algorithmic Mastery & the 650+ LeetCode Milestone</b></summary>
-<br/>
-
-- ✅ **650+ Problems Solved:** dynamic programming, graphs, trees and backtracking
-- ✅ **Graph Traversal:** Dijkstra, topological sort, Disjoint Set Union, BFS / DFS
-- ✅ **Algorithmic Engine Design:** greedy netting + exact-match pruning for optimal debt settlement in **SplitIT**
-- ✅ **Daily Four-Judge Ritual:** one problem a day on **LeetCode, Codeforces, AtCoder & CodeChef**, all in **Java**, each pushed with a full study guide
-- 🔄 **Competitive Programming:** rating progression and live contest participation
-
-</details>
-
-<details>
-<summary>🎁 <b>Secret Developer Vault · click to unlock</b></summary>
-<br/>
-<div align="center">
-<img src="assets/cards/vault.svg" width="100%" alt="Secret vault unlocked: +5000 XP"/>
-</div>
-</details>
-
-<div align="center">
-
-<br/>
+<img src="assets/cards/vault.svg" width="100%" alt="Secret developer vault unlocked: +5000 XP"/>
 
 <img src="assets/cards/philosophy.svg" width="100%" alt="Engineering creed: Architecture is not just about writing code that works today; it is about crafting systems that remain resilient, observable, and extensible tomorrow. Think big, build bigger. Code clean and scalable. Ship continuously."/>
 
